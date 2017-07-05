@@ -1,7 +1,7 @@
 ﻿
 using System.Windows;
 
-namespace _001
+namespace _000
 {
     /// <summary>
     /// Interaction logic for App.xaml
