@@ -15,14 +15,33 @@ using System.Windows.Shapes;
 
 namespace _001
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+
+
+
     public partial class MainWindow : Window
     {
+        ComboBoxData data;
+
         public MainWindow()
         {
             InitializeComponent();
+            InitData();
+        }
+
+        private void InitData()
+        {
+            data = new ComboBoxData();
+
+            DataTypeComboBox.ItemsSource = data.unitTypes;
+            DataTypeComboBox.SelectedIndex = 0;
+
+            //FromComboBox.ItemsSource =
+            //FromComboBox.SelectedIndex = 0;
+        }
+
+        private void ConvertButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
