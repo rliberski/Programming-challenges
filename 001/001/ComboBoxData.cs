@@ -1,8 +1,5 @@
-﻿using System;
+﻿
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _001
 {
@@ -35,11 +32,13 @@ namespace _001
         public List<Type> unitTypes { get; set; }
         public List<Unit> lengthUnits { get; set; }
         public List<Unit> massUnits { get; set; }
+        public List<Unit> timeUnits { get; set; }
 
         public ComboBoxData()
         {
             fillLengthUnits();
             fillMassUnits();
+            fillTimeUnits();
             
             fillTypes();
         }
@@ -49,6 +48,7 @@ namespace _001
             unitTypes = new List<Type>();
             unitTypes.Add(new Type("Length", lengthUnits));
             unitTypes.Add(new Type("Mass", massUnits));
+            unitTypes.Add(new Type("Time", timeUnits));
         }
 
         void fillLengthUnits()
@@ -83,6 +83,22 @@ namespace _001
             massUnits.Add(new Unit("Kilogram", 0.001));
             massUnits.Add(new Unit("Megagram", 0.000001));
             massUnits.Add(new Unit("Gigagram", 0.000000001));
+        }
+
+        void fillTimeUnits()
+        {
+            timeUnits = new List<Unit>();
+            timeUnits.Add(new Unit("Nanosecond", 1000000000));
+            timeUnits.Add(new Unit("Microsecond", 1000000));
+            timeUnits.Add(new Unit("Millisecond", 1000));
+            timeUnits.Add(new Unit("Centisecond", 100));
+            timeUnits.Add(new Unit("Decisecond", 10));
+            timeUnits.Add(new Unit("Second", 1));
+            timeUnits.Add(new Unit("Decasecond", 0.1));
+            timeUnits.Add(new Unit("Hectosecond", 0.01));
+            timeUnits.Add(new Unit("Kilosecond", 0.001));
+            timeUnits.Add(new Unit("Megasecond", 0.000001));
+            timeUnits.Add(new Unit("Gigasecond", 0.000000001));
         }
     }
 

@@ -26,7 +26,7 @@
                 </DataTemplate>
             </ComboBox.ItemTemplate>
         </ComboBox>
-        <ComboBox x:Name="DataTypeComboBox" Grid.Column="1" HorizontalAlignment="Left" Margin="10,5,0,0" VerticalAlignment="Top" Width="127" Height="22">
+        <ComboBox x:Name="DataTypeComboBox" Grid.Column="1" HorizontalAlignment="Left" Margin="10,5,0,0" VerticalAlignment="Top" Width="127" Height="22" SelectionChanged="DataTypeComboBox_SelectionChanged">
             <ComboBox.ItemTemplate>
                 <DataTemplate>
                     <TextBlock Text="{Binding type}"/>
@@ -34,7 +34,7 @@
             </ComboBox.ItemTemplate>
         </ComboBox>
         <Button x:Name="ConvertButton" Content="Convert" HorizontalAlignment="Left" Margin="10,88,0,0" VerticalAlignment="Top" Width="127" Height="23" Grid.Column="1" Click="ConvertButton_Click"/>
-        <TextBox x:Name="ValueBox" HorizontalAlignment="Left" Height="23" Margin="10,32,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="ValueBox" HorizontalAlignment="Left" Height="23" Margin="10,32,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" PreviewTextInput="ValueBox_PreviewTextInput"/>
         <TextBox x:Name="ResultBox" HorizontalAlignment="Left" Height="23" Margin="10,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
     </Grid>
 </Window>
