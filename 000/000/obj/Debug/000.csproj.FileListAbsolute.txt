@@ -1,0 +1,15 @@
+C:\Users\robert\Documents\Visual Studio 2015\Projects\001\001\bin\Debug\000.exe.config
+C:\Users\robert\Documents\Visual Studio 2015\Projects\000\000\bin\Debug\000.exe.config
+C:\Users\robert\Documents\Visual Studio 2015\Projects\000\000\obj\Debug\000.csprojResolveAssemblyReference.cache
+C:\Users\robert\Documents\Visual Studio 2015\Projects\000\000\obj\Debug\MainWindow.g.cs
+C:\Users\robert\Documents\Visual Studio 2015\Projects\000\000\obj\Debug\App.g.cs
+C:\Users\robert\Documents\Visual Studio 2015\Projects\000\000\obj\Debug\000_MarkupCompile.cache
+C:\Users\robert\Documents\Visual Studio 2015\Projects\000\000\obj\Debug\000_MarkupCompile.lref
+C:\Users\robert\Documents\Visual Studio 2015\Projects\000\000\bin\Debug\000.exe
+C:\Users\robert\Documents\Visual Studio 2015\Projects\000\000\bin\Debug\000.pdb
+C:\Users\robert\Documents\Visual Studio 2015\Projects\000\000\obj\Debug\MainWindow.baml
+C:\Users\robert\Documents\Visual Studio 2015\Projects\000\000\obj\Debug\000.g.resources
+C:\Users\robert\Documents\Visual Studio 2015\Projects\000\000\obj\Debug\_000.Properties.Resources.resources
+C:\Users\robert\Documents\Visual Studio 2015\Projects\000\000\obj\Debug\000.csproj.GenerateResource.Cache
+C:\Users\robert\Documents\Visual Studio 2015\Projects\000\000\obj\Debug\000.exe
+C:\Users\robert\Documents\Visual Studio 2015\Projects\000\000\obj\Debug\000.pdb
