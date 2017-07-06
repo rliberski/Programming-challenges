@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_001"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="Slided Puzzle" Height="760" Width="650" ResizeMode="NoResize">
+    <Grid Background="#FF028343">
+        <Button x:Name="resetButton" Content="New Game" HorizontalAlignment="Left" Margin="149,10,0,646" Width="335" Background="#FF5FD379" BorderBrush="#FF006116" FontSize="36" Click="resetButton_Click"/>
+        <Button x:Name="button1" Content="1" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="button_Click" Background="#FF5FD379" BorderBrush="#FF006116" Foreground="Black" FontSize="72"/>
+        <Button x:Name="button2" Content="2" HorizontalAlignment="Left" Margin="165,98,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="button_Click" Background="#FF5FD379" BorderBrush="#FF006116" Foreground="Black" FontSize="72"/>
+        <Button x:Name="button3" Content="3" HorizontalAlignment="Left" Margin="320,98,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="button_Click" Background="#FF5FD379" BorderBrush="#FF006116" Foreground="Black" FontSize="72"/>
+        <Button x:Name="button4" Content="4" HorizontalAlignment="Left" Margin="475,98,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="button_Click" Background="#FF5FD379" BorderBrush="#FF006116" Foreground="Black" FontSize="72"/>
+        <Button x:Name="button5" Content="5" HorizontalAlignment="Left" Margin="10,253,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="button_Click" Background="#FF5FD379" BorderBrush="#FF006116" Foreground="Black" FontSize="72"/>
+        <Button x:Name="button6" Content="6" HorizontalAlignment="Left" Margin="165,253,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="button_Click" Background="#FF5FD379" BorderBrush="#FF006116" Foreground="Black" FontSize="72"/>
+        <Button x:Name="button7" Content="7" HorizontalAlignment="Left" Margin="320,253,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="button_Click" Background="#FF5FD379" BorderBrush="#FF006116" Foreground="Black" FontSize="72"/>
+        <Button x:Name="button8" Content="8" HorizontalAlignment="Left" Margin="475,253,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="button_Click" Background="#FF5FD379" BorderBrush="#FF006116" Foreground="Black" FontSize="72"/>
+        <Button x:Name="button9" Content="9" HorizontalAlignment="Left" Margin="10,408,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="button_Click" Background="#FF5FD379" BorderBrush="#FF006116" Foreground="Black" FontSize="72"/>
+        <Button x:Name="button10" Content="10" HorizontalAlignment="Left" Margin="165,408,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="button_Click" Background="#FF5FD379" BorderBrush="#FF006116" Foreground="Black" FontSize="72"/>
+        <Button x:Name="button11" Content="11" HorizontalAlignment="Left" Margin="320,408,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="button_Click" Background="#FF5FD379" BorderBrush="#FF006116" Foreground="Black" FontSize="72"/>
+        <Button x:Name="button12" Content="12" HorizontalAlignment="Left" Margin="475,408,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="button_Click" Background="#FF5FD379" BorderBrush="#FF006116" Foreground="Black" FontSize="72"/>
+        <Button x:Name="button13" Content="13" HorizontalAlignment="Left" Margin="9,563,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="button_Click" Background="#FF5FD379" BorderBrush="#FF006116" Foreground="Black" FontSize="72"/>
+        <Button x:Name="button14" Content="14" HorizontalAlignment="Left" Margin="165,563,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="button_Click" Background="#FF5FD379" BorderBrush="#FF006116" Foreground="Black" FontSize="72"/>
+        <Button x:Name="button15" Content="15" HorizontalAlignment="Left" Margin="320,563,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="button_Click" Background="#FF5FD379" BorderBrush="#FF006116" Foreground="Black" FontSize="72"/>
+        <Button x:Name="button16" Content="" HorizontalAlignment="Left" Margin="475,563,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="button_Click" Background="#FF5FD379" BorderBrush="#FF006116" Foreground="Black" FontSize="72"/>
+
     </Grid>
 </Window>
